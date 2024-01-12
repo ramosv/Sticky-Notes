@@ -111,6 +111,8 @@ class App {
         this.$form.classList.remove('form-open');
         this.$noteTitle.style.display = 'none';
         this.$formButtons.style.display = 'none';
+        this.$noteTitle.value = "";
+        this.$noteText.value = "";
 
     }
     openTooltip(event) {
